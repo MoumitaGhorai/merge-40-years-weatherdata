@@ -13,5 +13,5 @@ combined_list <- lapply(list,function(filename){
 df <- Reduce(merge,combined_list) 
 
 
-#save the merged files in my 'formerging folder
+#save the merged files in my 'formerging folder'
 write.csv(df, "~/Desktop/formerging/merged_file.csv" ) 
